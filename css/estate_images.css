@@ -1,0 +1,26 @@
+/*Style the manage page thumbnails*/
+
+#estate_images_list
+{
+	margin-left:50px;
+	list-style:none;
+}
+
+#estate_images_list li
+{
+	float: 		left;
+	margin:		5px;
+	padding: 	5px;
+	height:		100px;
+}
+
+#estate_images_list img
+{
+	border: 	1px solid #9c9fa1;
+}
+
+#estate_images_list img:hover
+{
+	border: 	1px solid #3A4043;
+	cursor:		pointer;
+}
